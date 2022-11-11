@@ -1,0 +1,24 @@
+{
+	"name": "appium-webdriverio",
+	"version": "1.0.0",
+	"description": "Appium tests using WebddriverIO",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "V Williams",
+	"license": "ISC",
+	"dependencies": {
+		"@wdio/cli": "^7.25.4",
+		"appium": "^2.0.0-beta.46"
+	},
+	"devDependencies": {
+		"@wdio/appium-service": "^7.25.4",
+		"@wdio/local-runner": "^7.25.4",
+		"@wdio/mocha-framework": "^7.25.4",
+		"@wdio/spec-reporter": "^7.25.4",
+		"appium-uiautomator2-driver": "^2.10.0",
+		"appium-xcuitest-driver": "^4.12.1",
+		"wdio-wait-for": "^3.0.0"
+	}
+}
